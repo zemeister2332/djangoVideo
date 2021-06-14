@@ -1,0 +1,26 @@
+{% extends 'layouts/default/page.html' %}
+
+{% load i18n %}
+
+{% block content %}
+
+    {% if request.user.is_authenticated %}
+
+       
+        <!-- {% for x in info %}
+                <h3 class="text-center mt-2 mb-2">{{x.title}}</h3>
+                <video class="embed-responsive embed-responsive-16by9" controls="controls" >
+                <source src="{{ x.specifications.url }}" type="video/mp4" />
+                </video>
+        {% endfor %} -->
+                <h3 class="text-center mt-2 mb-2">Video Bir Marta Beriladi Iltimos E'tiborli Bo'ling</h3>
+                <video class="embed-responsive embed-responsive-16by9" controls="controls" >
+                <source src="../../media/router_specifications/21/output1.mp4" type="video/mp4" />
+                </video>
+
+    {% else %}
+
+        {% trans 'You are a guest.' %}
+
+    {% endif %}
+{% endblock %}

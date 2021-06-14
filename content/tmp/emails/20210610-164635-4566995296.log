@@ -1,0 +1,54 @@
+Content-Type: multipart/alternative;
+ boundary="===============1499306211677308844=="
+MIME-Version: 1.0
+Subject: Profile activation
+From: test@example.com
+To: udda2332@gmail.com
+Date: Thu, 10 Jun 2021 16:46:35 -0000
+Message-ID: 
+ <162334359555.34374.9681608396804272532@1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa>
+
+--===============1499306211677308844==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+
+To activate your profile, please follow this link:
+
+http://localhost:8000/accounts/activate/DmjzOh9dGLXl4CGeyGq4/
+
+--===============1499306211677308844==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Profile activation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+
+<p>
+    To activate your profile, please follow this link:
+</p>
+
+<p>
+    <a href="http://localhost:8000/accounts/activate/DmjzOh9dGLXl4CGeyGq4/">http://localhost:8000/accounts/activate/DmjzOh9dGLXl4CGeyGq4/</a>
+</p>
+
+</body>
+
+</html>
+
+--===============1499306211677308844==--
+
+-------------------------------------------------------------------------------
