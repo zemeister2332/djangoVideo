@@ -1,0 +1,30 @@
+{% extends 'layouts/default/page.html' %}
+
+{% load i18n %}
+
+{% block content %}
+
+    {% if request.user.is_authenticated %}
+
+
+    <!-- {% for item in info %}
+        <p>{% trans 'Your username is' %}  <a href="/media/router_specifications/{{item.title}}.mp4">{{ item.title }}</a>.</p>
+    {% endfor %} -->
+
+        <form method="POST" action="{% url 'form' %}">{% csrf_token %}
+          <input type="text" name="username">
+          <input type="submit" name="Request For a New Videos">
+        </form>
+
+        <h1>Bu yerda Uyga Vazifalar yoki muhim mavzular haqida ma'lumotlar joylashtiriladi</h1>
+        <!-- {% for x in info %}
+          <h3 class="text-center mt-2 mb-2">{{x.title}}</h3>
+          <video class="embed-responsive embed-responsive-16by9" controls="controls" >
+          <source src="{{ x.specifications.url }}" type="video/mp4" />
+          </video>
+        {% endfor %} -->
+
+      {% else %}
+         {% trans 'You are a guest.' %}
+     {% endif %}
+  {% endblock %}
